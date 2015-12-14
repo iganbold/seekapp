@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+
+    <style name="DialogAnimationPhoto">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_top</item>
+    </style>
+
+    <style name="CustomShowcaseTheme" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#66151825</item>
+        <item name="sv_showcaseColor">#ff1fd1d1</item>
+        <item name="sv_buttonText">Hide</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/CustomDetail2</item>
+    </style>
+
+    <style name="CustomShowcaseTheme2" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#66151825</item>
+        <item name="sv_showcaseColor">#ffe1df3e</item>
+        <item name="sv_buttonText">Next</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle3</item>
+        <item name="sv_detailTextAppearance">@style/CustomDetail2</item>
+    </style>
+
+    <style name="CustomShowcaseTheme3" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#66151825</item>
+        <item name="sv_showcaseColor">#ffe1df3e</item>
+        <item name="sv_buttonText">HIDE</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle3</item>
+        <item name="sv_detailTextAppearance">@style/CustomDetail2</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">#ff21fefe</item>
+    </style>
+
+    <style name="CustomTitle3" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">#fffefc3d</item>
+    </style>
+
+    <style name="CustomDetail2" parent="TextAppearance.ShowcaseView.Detail">
+        <item name="android:textColor">#fffffafe</item>
+    </style>
+
+
+
+</resources>

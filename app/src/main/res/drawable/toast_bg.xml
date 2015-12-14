@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/black_rect"
+    android:insetTop="@dimen/spacing_small"
+    android:insetRight="@dimen/spacing_big"
+    android:insetBottom="@dimen/spacing_small"
+    android:insetLeft="@dimen/spacing_big" />

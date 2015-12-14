@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/min_lay_height"
+    android:minWidth="@dimen/min_lay_width"
+    android:background="@drawable/toast_bg">
+
+    <TextView android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_big"
+        android:paddingRight="16dp"
+        android:drawableLeft="@android:drawable/ic_dialog_alert"
+        android:drawableStart="@android:drawable/ic_dialog_alert"
+        android:drawablePadding="@dimen/spacing_big"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="No connection."/>
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/report"
+        android:id="@+id/reportTV"
+        android:layout_alignBottom="@+id/reportBtn"
+        android:layout_alignRight="@+id/seekTV"
+        android:layout_alignEnd="@+id/seekTV"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/seek"
+        android:id="@+id/seekTV"
+        android:layout_alignBottom="@+id/seekBtn"
+        android:layout_alignRight="@+id/donateTV"
+        android:layout_alignEnd="@+id/donateTV"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Donate"
+        android:id="@+id/donateTV"
+        android:layout_alignBottom="@+id/donateBtn"
+        android:layout_toLeftOf="@+id/getBtnDialog"
+        android:layout_toStartOf="@+id/getBtnDialog"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/getBtnDialog"
+        android:src="@drawable/chemistry32"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/donateBtn"
+        android:src="@drawable/donate"
+        android:background="@null"
+        android:layout_above="@+id/getBtnDialog"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBtn"
+        android:src="@drawable/network65"
+        android:background="@null"
+        android:layout_above="@+id/donateBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportBtn"
+        android:src="@drawable/hexagonal1"
+        android:background="@null"
+        android:layout_above="@+id/seekBtn"
+        android:layout_alignLeft="@+id/seekBtn"
+        android:layout_alignStart="@+id/seekBtn"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="hug"
+        android:id="@+id/btn50Cent"
+        android:background="@drawable/donate_backround"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_alignBottom="@+id/getBtnDialog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="hope"
+        android:id="@+id/btn1Dol"
+        android:background="@drawable/donate_backround"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/btn50Cent"
+        android:layout_toRightOf="@+id/btn50Cent"
+        android:layout_toEndOf="@+id/btn50Cent" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="smile"
+        android:id="@+id/btn5Dol"
+        android:background="@drawable/donate_backround"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/btn1Dol"
+        android:layout_toRightOf="@+id/btn1Dol"
+        android:layout_toEndOf="@+id/btn1Dol" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="thank"
+        android:id="@+id/btn10Dol"
+        android:background="@drawable/donate_backround"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/btn5Dol"
+        android:layout_toRightOf="@+id/btn5Dol"
+        android:layout_toEndOf="@+id/btn5Dol" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you so much for your donation of supporting for people affected by natural disasters."
+        android:id="@+id/thankYouTV"
+        android:textSize="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff246e" />
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/donateIV"
+        android:src="@drawable/smile"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/reportBtn"
+        android:layout_alignStart="@+id/reportBtn" />
+</RelativeLayout>

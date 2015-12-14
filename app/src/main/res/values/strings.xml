@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">#seek</string>
+
+    <string name="title_section1">#</string>
+    <string name="title_section2">\@</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_split_action">SplitAction</string>
+
+    <string name="report">Report</string>
+    <string name="seek">Seek people</string>
+    <string name="title_activity_upload">UploadActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="image_url">http://imgservice.mybluemix.net/uploads/</string>
+    <string name="image_url_upload">http://imgservice.mybluemix.net/upload.php</string>
+    <string name="seek_url">http://seek.mybluemix.net/api/v1/find/get?url=</string>
+    <string name="seek_mock_url">http://seek.mybluemix.net/api/v1/find/getmock?url=</string>
+    <string name="report_url">http://seek.mybluemix.net/api/v1/report/post</string>
+    <string name="report_mock_url">http://seek.mybluemix.net/api/v1/report/postmock</string>
+    <string name="latest_people_url">http://seek.mybluemix.net/api/v1/info/latest-people</string>
+    <string name="broadcast_msg_url">http://seek.mybluemix.net/api/v1/info/broadcast-msg</string>
+    <string name="count_people_url">http://seek.mybluemix.net/api/v1/info/count-people</string>
+    <string name="tag_red">red</string>
+    <string name="tag_green">green</string>
+    <string name="tag_gray">gray</string>
+
+    <string name="tag_red_word">Dead</string>
+    <string name="tag_green_word">Alive</string>
+    <string name="tag_gray_word">Not Sure</string>
+
+    <string name="info_tag">DEAD, ALIVE OR NOT SURE?</string>
+    <string name="none">none</string>
+
+    <string name="no_match">No match</string>
+    <string name="no_connection">NO INTERNET CONNECTION</string>
+    <string name="yes_connection">INTERNET AVAILABLE</string>
+
+    <string name="show_case_app_desc_title">Welcome #seek</string>
+    <string name="show_case_get_btn_title">#Menu</string>
+    <string name="show_case_gen_btn">To report or seek someone, click on the bottom right button.</string>
+    <string name="show_case_app_desc">App is designed for people who want to seek or report people with facial recognition during the natural disasters.</string>
+
+</resources>

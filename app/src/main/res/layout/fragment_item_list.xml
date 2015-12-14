@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="net.bluemix.seek.fragments.FindFragment"
+    android:background="#5bbd95">
+
+    <ListView android:id="@android:id/list" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView android:id="@android:id/empty" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectBtn"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/photoselect"
+        android:background="@null"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBtn"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/photo_camera"
+        android:background="@null"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="140dp"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlBtn"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/link"
+        android:background="@null"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/resultIV"
+        android:layout_gravity="right|top"
+        fresco:placeholderImage="@drawable/seekpeople"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:background="#ffffffff" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadPBar"
+        android:layout_gravity="center"
+        android:indeterminate="false" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlET"
+        android:hint="Image URL"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffffff" />
+
+    <ImageButton
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlUploadBtn"
+        android:layout_gravity="center"
+        android:src="@drawable/upload78"
+        android:background="@null"/>
+
+</FrameLayout>
