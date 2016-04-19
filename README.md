@@ -1,4 +1,4 @@
-# Seek APP
+# Seek APP (Android)
 * App is designed for people who want to seek or report other people during the natural disasters zone.
 
 ### Demos
