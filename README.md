@@ -1,5 +1,8 @@
-# IBM Hack
+# Seek APP
 * App is designed for people who want to seek or report other people during the natural disasters zone.
+
+### Demos
+* Demo Video: https://www.youtube.com/watch?v=qGZTat6MgyA
 
 ### Architecture
 ![alt tag](http://passion-projects.weebly.com/uploads/4/2/6/7/42671647/8277772_orig.png)
